@@ -1,0 +1,21 @@
+[package]
+name = "hyperion_trade"
+version = "1.0.0"
+authors = []
+
+[addresses]
+trade="_"
+hyperion="_"
+#0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c
+hyperion_fee="_"
+#0xaef48940e6988b6b42b8b0a3c5064563c3a3345ef0c1932d48b11ea235f5e8a4
+[dev-addresses]
+trade="0x1234"
+hyperion="0x1243"
+hyperion_fee="0x124332"
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+[dependencies.dex]
+local="./hyperion"
