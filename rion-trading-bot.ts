@@ -483,8 +483,8 @@ class RionTradingBot {
           }
 
           // 交易间隔
-          this.log('⏳ 等待 10 秒后继续下一笔交易...\n', 'white');
-          await this.sleep(10000);
+          this.log('⏳ 等待 3 秒后继续下一笔交易...\n', 'white');
+          await this.sleep(3000);
           
         } catch (error) {
           this.log(`❌ 发生错误: ${error}`, 'red');
