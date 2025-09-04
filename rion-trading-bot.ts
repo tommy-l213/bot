@@ -7,7 +7,7 @@ import * as readline from "readline";
 const CONTRACT_ADDRESS = "0xb6c1dfaadf9fa19bdd4351122e64e20b44e9dac757a39fa12de7ee51fd2cde37";
 const MODULE_NAME = "trade";
 const FUNCTION_NAME = "swap_rion";
-const APTOS_NODE_URL = "https://fullnode.mainnet.aptoslabs.com";
+const APTOS_NODE_URL = "https://dolphin.caas.xyz/v1";
 const MIN_GAS = 5000000; // 0.05 APT minimum gas requirement
 const APT_DECIMALS = 8;
 const RION_DECIMALS = 6;
